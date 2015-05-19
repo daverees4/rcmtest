@@ -101,7 +101,7 @@ z-index:1000;
 }
 
 .first {
-margin-left:195px;
+margin-left:226px;
 }
 #mega-menu-1 .sub ul {
 display: block;
@@ -150,7 +150,7 @@ position: relative;
 margin-top:16px;
 box-shadow: 4px 4px 4px #888888;
 }
-#mega-menu-1 li .sub .row {
+#mega-menu-1 li .sub .mmrow {
 width: 100%; 
 overflow: hidden;
 clear: both;
@@ -175,6 +175,8 @@ color: #fff;
 padding: 1px 0px; 
 display: block; 
 float: none; 
+font-size: 12px;
+line-height: 1.4;
 
 }
 #mega-menu-1 li .sub li.mega-hdr a.mega-hdr-a {
@@ -266,7 +268,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b50937', end
 
 #LocalMasthead h3 {padding-left: 30px; padding-top: 25px; color: #FFFFFF}
 
-#LocalMastheadHome h3 {padding-left: 30px; padding-top: 10px; color: #FFFFFF}
+#LocalMastheadHome h3 {padding-left: 30px; padding-top: 9px; color: #FFFFFF}
 
 #LocalMasthead h1 {padding-left: 30px; padding-top: 20px; color: #FFFFFF}
 #LocalMastheadwnav {border-bottom: 5px solid #FFFFFF;border-top: 5px solid #FFFFFF; background: #566D7B;}
