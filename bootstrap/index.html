@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
-
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.mod.css" rel="stylesheet">
  <link href="css/custom.css" rel="stylesheet"> 
-       <link href="css/slick.css" rel="stylesheet">
-    <link href="css/slick-theme.css" rel="stylesheet">
+      <link href="css/slick.css" rel="stylesheet">
+        <link href="css/slick-theme.css" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,8 +26,476 @@
  
 
  
+<div class="page-container">
+	
+		<nav class="navbar navbar-default visible-xs visible-sm">
 
-    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">RCM London</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+           <ul class="nav navbar-nav navbar-right">
+        
+
+       <li class="dropdown">
+            <a id="dLabel" role="button" data-toggle="dropdown"  data-target="#" href="/page.html">
+                Dropdown <span class="caret"></span>
+            </a>
+    		<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+              <li><a href="#">Some action</a></li>
+              <li><a href="#">Some other action</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">Hover me for more options</a>
+                <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Second level</a></li>
+                  <li class="dropdown-submenu">
+                    <a href="#">Even More..</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">3rd level</a></li>
+                    	<li><a href="#">3rd level</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Second level</a></li>
+                  <li><a href="#">Second level</a></li>
+                </ul>
+              </li>
+            </ul>
+        </li>
+						<li><a href="#">What's on</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Support Us</a></li>
+						<li><a href="#">Alumni</a></li>
+						<li><a href="#">Research</a></li>
+						<li><a href="#">Get Involved</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+
+</nav>
+		
+		<!-- End Nav Section Mobile/Tablet -->	
+    <div class="container-fluid">
+	    
+	    
+	    <!-- Start Nav Section Tablet/Desktop -->
+		<div class="row hidden-sm hidden-xs">
+			<div id="Top">
+				<div style="position: absolute; margin-left: 30px">
+					<a href="/"><img src="http://www.rcm.ac.uk/media/rcmacuk/styleassests/images/logonew.png" alt="" style="width : 130px; height : 79px;    "></a>
+				</div>
+				<div id="TopContainer">
+					<div id="TopBox">
+						<!-- Search Box -->
+						<div style="height:10px"></div>
+						<div id="searchwrapper2">
+							<div id="headerflags">
+								<a href="http://www.rcm.ac.uk/southkorea"><img src="http://www.rcm.ac.uk/media/rcmacuk/content/images/southkoreasmall.jpg" class="headerflag"></a>
+								<a href="http://www.rcm.ac.uk/japan"><img src="http://www.rcm.ac.uk/media/rcmacuk/content/images/japanflagsmall.jpg" class="headerflag"></a>
+								<a href="http://www.rcm.ac.uk/hongkong"><img src="http://www.rcm.ac.uk/media/rcmacuk/content/images/Hongkongflagsmall.jpg" class="headerflag"></a>
+								<a href="http://www.rcm.ac.uk/singapore"><img src="http://www.rcm.ac.uk/media/rcmacuk/content/images/Singaporeflagsmall.jpg" class="headerflag"></a>
+								<a href="http://www.rcm.ac.uk/china"><img src="http://www.rcm.ac.uk/media/rcmacuk/content/images/chinese-flagsmall.jpg" class="headerflag"></a>
+							</div>
+							<div id="searchbox">
+								<form action="/search" id="SearchForm"> 
+									<input type="hidden" name="cx" value="017527902676183453214:zicf2yk2jqa">
+									<input type="hidden" name="cof" value="FORID:11">
+									<input type="hidden" name="ie" value="UTF-8">
+									<input type="text" class="searchbox" name="q" value="Search">
+									<input type="image" src="http://www.rcm.ac.uk/media/rcmacuk/styleassests/images/blank.png" class="searchbox_submit" value="">
+								</form>
+							</div>
+							<div style="clear:both"></div>
+						</div>
+						<ul id="mega-menu-1" class="mega-menu full-width">
+							<li class="dc-mega-li">
+								<a class="first dc-mega" href="/study">STUDY<span class="dc-mega-icon"></span></a><span class="dc-mega-icon"></span>
+								<div class="sub-container mega" style="width: 1000px; left: 0px; top: 40px; z-index: 1000;">
+									<ul class="sub" style="display: none;">
+										<div class="mmrow" style="width: 948px;">
+											<li class="mega-unit mega-hdr" style="height: 249px;">
+												<span class="menu-title"><a href="/courses">Courses</a></span>
+												<ul>
+													<li><a href="/courses/undergraduate">Undergraduate</a></li>
+													<li><a href="/courses/postgraduate">Postgraduate</a></li>
+													<li><a href="/courses/postgraduate/doctoral">Research Degrees</a></li>
+													<li><a href="/juniorfellowships">Junior Fellowships</a></li>
+													<li><a href="/junior">Junior Department</a></li>
+													<li><a href="/courses/exchanges">Exhanges</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 249px;">
+												<span class="menu-title"><a href="/faculties">Faculties</a></span>
+												<ul>
+													<li><a href="/brass">Brass</a></li>
+													<li><a href="/composition">Composition</a></li>
+													<li><a href="/conducting">Conducting</a></li>
+													<li><a href="/hp">Historical Performance</a></li>
+													<li><a href="/keyboard">Keyboard</a></li>
+													<li><a href="/percussion">Percussion</a></li>
+													<li><a href="/strings">Strings</a></li>
+													<li><a href="/vocal">Vocal Studies</a></li>
+													<li><a href="/woodwind">Woodwind</a></li>
+													<li><a href="/about/stafflisting">A-Z of Staff</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 249px;">
+												<span class="menu-title"><a href="/life">Life at the RCM</a></span>
+												<ul>
+													<li><a href="/life/location">Location</a></li>
+													<li><a href="/life/studentservices">Student Services</a></li>
+													<li><a href="/life/accommodation">Accommodation</a></li>
+													<li><a href="/life/performanceopportunities">Performance Opportunities</a></li>
+													<li><a href="/life/facilitiesresources">Facilities &amp; Resources</a></li>
+													<li><a href="/life/international">International Students</a></li>
+													<li><a href="/life/exchanges">Exchanges</a></li>
+													<li><a href="/life/beyondthercm">Career Development</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 249px;">
+												<span class="menu-title"><a href="/apply">Apply to the RCM</a></span>
+												<ul>
+													<li><a href="/apply/openday">Open Days<br>&amp; Tours</a></li>
+													<li><a href="/apply/howtoapply">How to apply</a></li>
+													<li><a href="/apply/entryrequirements">Entry Requirements</a></li>
+													<li><a href="/apply/auditions">Auditions &amp; <br>Audition Pieces</a></li>
+													<li><a href="/apply/feesandfunding">Fees &amp; Funding</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 249px;">&nbsp;</li>
+											<li class="mega-unit mega-hdr last" style="height: 249px;">
+												<img src="http://www.rcm.ac.uk/mainmenu/college-drop-down.jpg" width="126" height="187" alt="">  
+											</li>
+										</div>
+										<!-- This is a blank column -->
+									</ul>
+								</div>
+							</li>
+							<li class="dc-mega-li">
+								<a href="/events" class="dc-mega">WHAT'S ON<span class="dc-mega-icon"></span></a><span class="dc-mega-icon"></span>
+								<div class="sub-container mega" style="width: 1000px; left: 0px; top: 40px; z-index: 1000;">
+									<ul class="sub" style="display: none;">
+										<div class="mmrow" style="width: 970px;">
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/events/seasonhighlights">Season Highlights</a></span>
+												<ul>
+													<li><a href="/events/seasonhighlights/profconcerts">Professors' Concerts</a></li>
+													<li><a href="/events/listings/details/?id=681011">Ruisi Quartet</a></li>
+													<li><a href="/events/listings/details/?id=675620">Masterclass with Julian Lloyd Webber</a></li>
+													<li><a href="/events/listings/details/?id=598765">RCM Symphony Orchestra</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/events/listings">All Events</a></span>
+												<ul>
+													<li><a href="/events/listings/highlights">Highlights</a></li>
+													<li><a href="/events/listings/masterclassesworkshops">Masterclasses</a></li>
+													<li><a href="/events/listings/chambermusicseries">Chamber Music</a></li>
+													<li><a href="/events/listings/participatoryevents">Participatory Events</a></li>
+													<li><a href="/events/listings/lecturesseminars">Lectures &amp; Seminars</a></li>
+													<li><a href="/events/external">External Concert Series</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/events/visitorinformation">Other Things To Do</a></span>
+												<ul>
+													<li><a href="/museum">Visit the Museum</a></li>
+													<li><a href="/library/visitorinformation">Visit the Library</a></li>
+													<li><a href="/sparks/aboutus">Take Part in an Event</a></li>
+													<li><a href="/apply/openday">Open Days and Tours</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/events/visitorinformation">Visitor Information</a></span>
+												<ul>
+													<li><a href="/events/visitorinformation/location">Location</a></li>
+													<li><a href="/events/visitorinformation/gettingtothercm">Getting to the RCM</a></li>
+													<li><a href="/events/visitorinformation/accessinformation">Access Information</a></li>
+													<li><a href="/events/visitorinformation/ticketinginformation">Ticketing Information</a></li>
+													<li><a href="/events/visitorinformation/foodanddrink">Food and Drink</a></li>
+													<li><a href="/about/termdatesopeninghours">Term Dates &amp; Opening Times</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">&nbsp;</li>
+											<li class="mega-unit mega-hdr last" style="height: 201px;">
+												<img src="http://www.rcm.ac.uk/mainmenu/Visit-dropdown-image.jpg" width="126" height="187" alt="">  
+											</li>
+										</div>
+										<!-- This is a blank column -->
+									</ul>
+								</div>
+							</li>
+							<li class="dc-mega-li">
+								<a href="/about" class="dc-mega">ABOUT US<span class="dc-mega-icon"></span></a><span class="dc-mega-icon"></span>
+								<div class="sub-container mega" style="width: 1000px; left: 0px; top: 40px; z-index: 1000;">
+									<ul class="sub" style="display: none;">
+										<div class="mmrow" style="width: 948px;">
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/about">About the RCM</a></span>
+												<ul>
+													<li><a href="/about/historyofthercm">History of the RCM</a></li>
+													<li><a href="/about/governance">Governance &amp; Organisation</a></li>
+													<li><a href="/about/governance/strategy/">Strategy &amp; Policy</a></li>
+													<li><a href="/about/news">Latest News</a></li>
+													<li><a href="/about/upbeat">Upbeat Magazine</a></li>
+													<li><a href="/about/governance/strategy">Annual Review</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="#">People</a></span>
+												<ul>
+													<li><a href="/about/governance/directorate">RCM Directorate</a></li>
+													<li><a href="/about/stafflisting">Staff A-Z</a></li>
+													<li><a href="/about/historyofthercm/honoursandfellowships">Honours &amp; Fellowships</a></li>
+													<li><a href="/about/jobs">Job Vacancies</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="#">RCM Places</a></span>
+												<ul>
+													<li><a href="/shop">RCM Shop</a></li>
+													<li><a href="/cps">Centre for Performance Science</a></li>
+													<li><a href="/life/beyondthercm/woodhousecentre/">Woodhouse Professional Development Centre</a></li>
+													<li><a href="/museum">Museum of Music</a></li>
+													<li><a href="/library">Library</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/contact">Keep in Touch</a></span>
+												<ul>
+													<li><a href="/contact">Contact Us</a></li>
+													<li><a href="/events">Join our Mailing List</a></li>
+													<li><a href="http://www.facebook.com/royalcollegeofmusic" target="_blank">Facebook</a></li>
+													<li><a href="http://www.twitter.com/rcmlatest" target="_blank">Twitter</a></li>
+													<li><a href="http://www.youtube.com/rcmlondon" target="_blank">YouTube</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">&nbsp;</li>
+											<li class="mega-unit mega-hdr last" style="height: 201px;">
+												<img src="http://www.rcm.ac.uk/mainmenu/about us-drop-down.jpg" width="126" height="187" alt="">  
+											</li>
+										</div>
+										<!-- This is a blank column -->
+									</ul>
+								</div>
+							</li>
+							<li class="dc-mega-li">
+								<a href="/support" class="dc-mega">SUPPORT US<span class="dc-mega-icon"></span></a><span class="dc-mega-icon"></span>
+								<div class="sub-container mega" style="width: 1000px; left: 0px; top: 40px; z-index: 1000;">
+									<ul class="sub" style="display: none;">
+										<div class="mmrow" style="width: 948px;">
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/supportus">Supporting the RCM</a></span>
+												<ul>
+													<li><a href="/supportus/whysupportthercm">Why Support Us</a></li>
+													<li><a href="/supportus/oursupporters">Our Supporters</a></li>
+													<li><a href="/supportus/oursupporters/meet">Meet our Supporters</a></li>
+													<li><a href="/supportus/donations">Donate to the RCM</a></li>
+													<li><a href="/supportus/contactus">Contact Us</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/supportus/waystosupport">Membership</a></span>
+												<ul>
+													<li><a href="/supportus/waystosupport/friends">RCM Friends</a></li>
+													<li><a href="/supportus/waystosupport/circlesforexcellence/patronscircle/">Patrons' Circle</a></li>
+													<li><a href="/supportus/waystosupport/circlesforexcellence/directorscircle/">Director's Circle</a></li>
+													<li><a href="/supportus/waystosupport/circlesforexcellence/chairmanscircle/">Chairman's Circle</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/supportus/waystosupport">Ways to Support</a></span>
+												<ul>
+													<li><a href="/supportus/waystosupport/provideascholarship">Provide a Scholarship</a></li>
+													<li><a href="/supportus/events">Attend an Event</a></li>
+													<li><a href="/supportus/waystosupport/leavingalegacy">Leave a Legacy</a></li>
+													<li><a href="/supportus/waystosupport/taxeffectivegiving">Tax Effective Giving</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">&nbsp;</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">&nbsp;</li>
+											<li class="mega-unit mega-hdr last" style="height: 201px;">
+												<img src="http://www.rcm.ac.uk/mainmenu/dropdown.jpg" width="126" height="187" alt="">  
+											</li>
+										</div>
+										<!-- This is a blank column -->
+										<!-- This is a blank column -->
+									</ul>
+								</div>
+							</li>
+							<li class="dc-mega-li">
+								<a href="/alumni" class="dc-mega">ALUMNI<span class="dc-mega-icon"></span></a><span class="dc-mega-icon"></span>
+								<div class="sub-container mega" style="width: 1000px; left: 0px; top: 40px; z-index: 1000;">
+									<ul class="sub" style="display: none;">
+										<div class="mmrow" style="width: 948px;">
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/alumni">Alumni Network</a></span>
+												<ul>
+													<li><a href="/alumni/news">News</a></li>
+													<li><a href="/alumni/events">Events &amp; Reunions</a></li>
+													<li><a href="/alumni/profdev">Professional Development</a></li>
+													<li><a href="/alumni/networking">Networking Opportunities</a></li>
+													<li><a href="/alumni/support">Supporting the RCM</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/alumni/contact">Contact Us</a></span>
+												<ul>
+													<li><a href="/alumni/update">Update your details</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">&nbsp;</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">&nbsp;</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">&nbsp;</li>
+											<li class="mega-unit mega-hdr last" style="height: 201px;">
+												<img src="http://www.rcm.ac.uk/mainmenu/alumnidropdownmenu.jpg" width="126" height="187" alt="">  
+											</li>
+										</div>
+										<!-- This is a blank column -->
+										<!-- This is a blank column -->
+										<!-- This is a blank column -->
+									</ul>
+								</div>
+							</li>
+							<li class="dc-mega-li">
+								<a href="/research" class="dc-mega">RESEARCH<span class="dc-mega-icon"></span></a><span class="dc-mega-icon"></span>
+								<div class="sub-container mega" style="width: 1000px; left: 0px; top: 40px; z-index: 1000;">
+									<ul class="sub" style="display: none;">
+										<div class="mmrow" style="width: 948px;">
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/research/overview">Overview</a></span>
+												<ul>
+													<li><a href="/research/environment">Environment</a></li>
+													<li><a href="/research/impact">Impact</a></li>
+													<li><a href="/research/researchdegrees">Research Degrees</a></li>
+													<li><a href="/research/contact">Contact</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/research/researchareas">Research Areas</a></span>
+												<ul>
+													<li><a href="/research/researchareas/cm">Contemporary Musics</a></li>
+													<li><a href="/research/researchareas/pps">Performance, Practices and Sources</a></li>
+													<li><a href="/research/researchareas/ps">Performance Science</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/research/resources">Resources</a></span>
+												<ul>
+													<li><a href="/specialcollections">RCM Special Collections</a></li>
+													<li><a href="/library">RCM Library</a></li>
+													<li><a href="/museum">RCM Museum of Music</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/Research/events">Events</a></span>
+												<ul>
+													<li><a href="/research/events/groveforum">Grove Forum</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">&nbsp;</li>
+											<li class="mega-unit mega-hdr last" style="height: 201px;">
+												<img src="http://www.rcm.ac.uk/mainmenu/research-dropdown-menu.jpg" width="126" height="187" alt="">  
+											</li>
+										</div>
+										<!-- This is a blank column -->
+									</ul>
+								</div>
+							</li>
+							<li class="dc-mega-li">
+								<a href="/sparks" class="dc-mega">GET INVOLVED<span class="dc-mega-icon"></span></a><span class="dc-mega-icon"></span>
+								<div class="sub-container mega" style="width: 1000px; left: 0px; top: 40px; z-index: 1000;">
+									<ul class="sub" style="display: none;">
+										<div class="mmrow" style="width: 948px;">
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/sparks">Take Part</a></span>
+												<ul>
+													<li><a href="/sparks">RCM Sparks</a></li>
+													<li><a href="/sparks/families">For Families &amp; <br>Young People</a></li>
+													<li><a href="/sparks/forschools">For Schools</a></li>
+													<li><a href="/sparks/projects">Projects &amp; Partnerships</a></li>
+													<li><a href="/sparks/contactus">Contact Us</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/hire">Services</a></span>
+												<ul>
+													<li><a href="/hire/hirethercmforanevent">Hire the RCM</a></li>
+													<li><a href="/hire/hirercmmusicians">Hire RCM Musicians</a></li>
+													<li><a href="/hire/hirethercmstudios">Hire the RCM Studios</a></li>
+													<li><a href="/hire/rcmteachingservice">Teaching Service</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/events/visitorinformation">Visit Us</a></span>
+												<ul>
+													<li><a href="/events/listings">Attend an Event</a></li>
+													<li><a href="/events/visitorinformation">Visitor Information</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">
+												<span class="menu-title"><a href="/contact">Keep in Touch</a></span>
+												<ul>
+													<li><a href="/contact">Email Us</a></li>
+													<li><a href="/events">Join our Mailing List</a></li>
+													<li><a href="http://www.facebook.com/royalcollegeofmusic" target="_blank">Facebook</a></li>
+													<li><a href="http://www.twitter.com/rcmlatest" target="_blank">Twitter</a></li>
+													<li><a href="http://www.youtube.com/rcmlondon" target="_blank">YouTube</a></li>
+												</ul>
+											</li>
+											<li class="mega-unit mega-hdr" style="height: 201px;">&nbsp;</li>
+											<li class="mega-unit mega-hdr last" style="height: 201px;">
+												<img src="http://www.rcm.ac.uk/mainmenu/get-involved-dropdown.jpg" width="126" height="187" alt="">  
+											</li>
+										</div>
+										<!-- This is a blank column -->
+									</ul>
+								</div>
+							</li>
+						</ul>
+						<!-- http://www.rcm.ac.uk/mainmenu -->
+					</div>
+					<!-- /TopBox -->
+				</div>
+				<!-- /TopContainer -->
+			</div>
+		</div>
+		<!-- End Nav Section Desktop -->	
+		
+		<!-- Start Nav Section Mobile/Tablet -->
+	
+		<!-- Start Secondary Nav Desktop -->
+		<div class="row hidden-sm hidden-xs" >
+			<div id="LocalMastheadHome">
+				<!-- Breadcrumb Navigation -->
+				<div class="breadcrumbswnav">Home</div>
+				<h3 style="margin-bottom: 0.5em">Welcome to the the Royal College of Music</h3>
+			</div>
+		</div>
+
+		
+		<!-- End Secondary Nav Desktop-->
+		
+
+	    		<div class="row ">
+		    		
+			<div class="slider single-item">
+				<div><img src="img/1.jpg" style="width:100%"/></div>
+				<div><img src="img/2.jpg" style="width:100%"/></div>
+			</div>
+		    	
+	
+		</div>
+	
       <!-- Example row of columns -->
     <div class="row">
         <div class="col-sm-4">
@@ -107,7 +577,8 @@
       </div>
     
 
-      </div> <!-- /container -->
+      </div> <!-- /fluid-container -->
+</div> <!-- /page-container -->
 
 
 
@@ -118,5 +589,17 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
     <script src="http://www.rcm.ac.uk/media/rcmacuk/styleassests/js/hoverIntent.min.js"></script>
 	<script src="js/megamenu/megamenu.js"></script>
+	<script>
+		
+			$(document).ready(function() {
+			 $('.single-item').slick({
+			     autoplay: true,
+			     arrows: false,
+			     pauseOnHover: false,     
+			 });
+			 $('.searchbox').focus(function() { $(this).val(''); }); 
+			 });
+			     
+		</script>
   </body>
 </html>
