@@ -1,0 +1,384 @@
+.red {background-color: red}
+.yellow {background-color: yellow}
+.green {background-color: green}
+.caps {text-transform: uppercase}
+
+
+
+
+body {background: #CFCFD7}
+#image > img {
+	width: 100%
+}
+.container {
+	background-color: #fff;
+}
+
+
+/* Desktop Nav */
+#Top 		{ height: 100px; margin: 0 auto; background: transparent url('http://www.rcm.ac.uk/media/rcmacuk/styleassests/images/Page-Bg.png') repeat-y 0 0;}
+#TopContainer	{ height: 100px;  margin: 0 auto; background-color: #474747 }
+#TopContainer	{ background-image: url('http://www.rcm.ac.uk/media/rcmacuk/styleassests/images/topMenu-Middle.png'); } 
+
+.headerflag {
+height:18px;
+margin-right:5px;
+margin-top:5px;
+}
+
+#headerflags {
+float:left;
+}
+
+	
+#searchwrapper2 {
+margin-left:553px;
+margin-right: 10px;
+margin-right: 20px;
+
+height:40px;
+}
+#searchbox {
+width:205px; /*follow your image's size*/
+height:28px;/*follow your image's size*/
+background-image:url('http://www.rcm.ac.uk/media/rcmacuk/styleassests/images/SearchBg.gif');
+background-repeat:no-repeat; /*important*/
+float:right;
+margin-top: 2px;
+
+margin-bottom:0px;
+
+position:relative; /*important*/
+}
+
+.searchbox {
+border:0px; /*important*/
+background-color:transparent; /*important*/
+position:absolute; /*important*/
+top:5px;
+left:7px;
+width:160px;
+height:16px;
+
+}
+
+input[type="text"]{
+	width: inherit;
+	padding: 0px;
+	height: inherit;
+	border-width: 0px
+}
+ 
+.searchbox_submit {
+border:0px; /*important*/
+background-color:transparent; /*important*/
+position:absolute; /*important*/
+top:5px;
+left:170px;
+width:30px;
+height:18px;
+}
+
+#searchwrapper form { display:inline ; }
+
+/* MEGA MENU */
+       /* #############################################################
+Main Menu Style
+############################################################# */
+
+
+/* Mega Menu Styles */
+#mega-menu-1 li ul {display: none;}
+#mega-menu-1 .sub ul {display: block;}
+.mega-menu ul, .mega-menu ul li {list-style: none;}
+.mega-menu ul {position: relative; padding: 0; margin: 0;}
+.mega-menu ul li ul {display: none;}
+.mega-menu .sub {display: none;}
+.mega-menu .sub ul {display: block;}
+
+#mega-menu-1 {
+font: normal 13px Arial, sans-serif; 
+list-style: none; 
+position:relative;
+padding: 0; 
+margin: 0;
+z-index:1000;
+}
+
+.first {
+margin-left:226px;
+}
+#mega-menu-1 .sub ul {
+display: block;
+}
+#mega-menu-1 {
+
+
+height: 40px;
+
+
+}
+#mega-menu-1 li {
+float: left; 
+margin: 0; 
+padding: 0; 
+font-weight: bold;
+text-decoration: none;
+
+}
+#mega-menu-1 li a {
+float: left; 
+display: block; 
+color: #fff; 
+padding: 12px 20px; 
+
+text-decoration: none;
+
+}
+#mega-menu-1 li.mega-hover a {
+
+color: #a32403;
+}
+#mega-menu-1 li a:hover {
+
+color: #a32403;
+}
+#mega-menu-1 li .sub-container {
+position:absolute;
+}
+#mega-menu-1 li .sub {
+background: #474747; 
+background-image: url('http://www.rcm.ac.uk/media/rcmacuk/styleassests/images/dropdownmenus.png');
+padding: 13px 30px; 
+z-index:100;
+position: relative;
+margin-top:16px;
+box-shadow: 4px 4px 4px #888888;
+}
+#mega-menu-1 li .sub .mmrow {
+width: 100%; 
+overflow: hidden;
+clear: both;
+}
+#mega-menu-1 li .sub li {
+list-style: none; 
+float: none; 
+width: 136px; 
+font-size: 1em; 
+font-weight: normal;
+}
+#mega-menu-1 li .sub li.mega-hdr {
+margin: 0 22px 10px 0; 
+float: left;
+}
+#mega-menu-1 li .sub li.mega-hdr.last {
+margin-right: 0;
+}
+#mega-menu-1 li .sub a {
+background: none; 
+color: #fff; 
+padding: 1px 0px; 
+display: block; 
+float: none; 
+font-size: 12px;
+line-height: 1.4;
+
+}
+#mega-menu-1 li .sub li.mega-hdr a.mega-hdr-a {
+padding: 5px 0px; 
+margin-bottom: 5px; 
+border-bottom: solid 1px;
+text-transform: uppercase; 
+font-weight: bold; 
+color: #fff;
+}
+
+.menu-title {
+padding: 5px 0px; 
+margin-bottom:10px;
+border-bottom: solid 1px;
+text-transform: uppercase; 
+font-weight: bold; 
+color: #fff;
+background: none; 
+color: #fff; 
+
+display: block; 
+float: none; 
+font-size: 0.9em;	
+	
+}
+
+
+
+
+
+#mega-menu-1 li .sub li.mega-hdr a.mega-hdr-a:hover {
+color: #000;
+}
+#mega-menu-1 .sub li.mega-hdr li a {
+padding: 2px 0px; 
+font-weight: normal;
+}
+#mega-menu-1 .sub li.mega-hdr li a:hover {
+color: #a32403; 
+
+}
+#mega-menu-1 .sub ul li {
+padding-right: 0;
+}
+#mega-menu-1 li .sub-container.non-mega .sub {
+padding: 10px;
+}
+#mega-menu-1 li .sub-container.non-mega li {
+padding: 0; 
+width: 190px; 
+margin: 0;
+}
+#mega-menu-1 li .sub-container.non-mega li a {
+padding: 7px 5px 7px 22px;
+}
+#mega-menu-1 li .sub-container.non-mega li a:hover {
+color: #a32403; 
+background: #efefef;
+}
+
+.menuimage {
+	border: 1px solid #fff;
+	margin-top: 10px;
+}
+ 
+
+/* top bar */
+.top-bar,  .top-bar.expanded .title-area ,  .back {
+	 background: #b50937; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I1MDkzNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2IyMzE1NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2IyMzE1NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiNTA5MzciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #b50937 0%, #b23154 50%, #b23154 51%, #b50937 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b50937), color-stop(50%,#b23154), color-stop(51%,#b23154), color-stop(100%,#b50937)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b50937 0%,#b23154 50%,#b23154 51%,#b50937 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b50937 0%,#b23154 50%,#b23154 51%,#b50937 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b50937 0%,#b23154 50%,#b23154 51%,#b50937 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #b50937 0%,#b23154 50%,#b23154 51%,#b50937 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b50937', endColorstr='#b50937',GradientType=0 ); /* IE6-8 */
+
+}
+
+/* Local Navigation (Desktop) */
+#LocalMasthead {height: 74px;  border-bottom: 5px solid #FFFFFF;border-top: 5px solid #FFFFFF; background: #566D7B;}
+
+#LocalMastheadHome {height: 52px;  border-bottom: 5px solid #FFFFFF;border-top: 5px solid #FFFFFF; background: #566D7B;}
+
+#LocalMasthead img {padding-left: 30px; padding-top: 3px}
+
+#LocalMasthead h3 {padding-left: 30px; padding-top: 25px; color: #FFFFFF}
+
+#LocalMastheadHome h3 {padding-left: 30px; padding-top: 9px; color: #FFFFFF}
+
+#LocalMasthead h1 {padding-left: 30px; padding-top: 20px; color: #FFFFFF}
+#LocalMastheadwnav {border-bottom: 5px solid #FFFFFF;border-top: 5px solid #FFFFFF; background: #566D7B;}
+
+
+#LocalMastheadwnav h1 {padding-left: 30px; padding-top: 5px; color: #FFFFFF}
+
+
+	#LocalNav { padding-left: 30px }
+	#LocalNav li { margin: 0 18px 0 0; }
+
+/* Breadcrumbs */
+
+	/* breadcrumbs */
+	.breadcrumbs	{ color: #FFFFFF; font-size: 11px; float: right; padding-right: 32px; padding-top: 30px;}
+	.breadcrumbs a:link, .breadcrumbs a:visited	{ color: #999; }
+	.breadcrumbs a:hover, .breadcrumbs a:active	{ color: #333; }
+	
+	.breadcrumbswnav	{ color: #FFFFFF; font-size: 11px; float: right; padding-right: 30px; padding-top: 15px;}
+	.breadcrumbswnav a:link, .breadcrumbs a:visited	{ color: #999; }
+	.breadcrumbswnav a:hover, .breadcrumbs a:active	{ color: #333; }
+
+
+
+/* headings */
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 700; 
+	font-weight: normal;
+	line-height: 1.15; 
+	margin: 0 0 0.5em; 
+	padding: 0 0 0.2em; 
+	color: #132128; 
+	}
+	
+h1			{ font-size: 2.34em; }
+h2			{ font-size: 2em; }
+h3			{ font-size: 1.3em; margin-bottom: 0.5em; }
+h4			{ font-size: 1.35em; margin-bottom: 0.5em; border-bottom: none; }
+h5			{ font-size: 1.17em; font-weight: bold; margin-bottom: 0.5em; border-bottom: none; }
+h6			{ font-size: 1em; font-weight: lighter; margin-bottom: 0.5em; border-bottom: none; }
+
+/* content boxes */
+	.boxcontainer {padding-bottom: 22px}
+	
+	.boxtitle { height: 41px;  border-bottom: 3px solid #FFFFFF; background: #566D7B;} 
+        .boxentrytitle  p {margin: 0}
+	.boxtitle h3 {color:#FFFFFF; padding: 8px 10px; }
+	.boxdate { height: 36px; background: #dce0e6; }
+	.boxdate h4 {padding: 7px 10px}
+	.boxentry { background: #dce0e6; padding: 7px 10px; margin-bottom: 3px}
+	.quicklinksentry { background: #dce0e6; padding: 7px 10px; }
+	
+	.boxstatic { background: #dce0e6; padding: 7px 10px; }
+	.boxentrytitle  {margin-bottom: 0px; margin: 0; padding-right: 10px; font-size: 15px; color: #474747; font-weight: bold; line-height: 1.2}
+    
+
+	.boxentry:hover {background: #c2bfbe; padding: 7px 7px; border-left: 3px solid #B50937}
+	
+	
+	.newsboxentry { background: #dce0e6; padding:0}
+	
+	.newsimg {float: right}
+	.newsboxentry {  background: #dce0e6; padding: 0px 0px; 0px; 0px; }
+	.newstitle p { padding-top: 7px; padding-left: 10px; margin-bottom: 0px; font-size: 15px; }
+	
+	
+
+	.newsblurb {padding: 0px 10px; }
+	.boxentrydetail {margin: 0}
+    .boxentrydetail p {margin: 0}
+	
+	
+   .more {background: none repeat scroll 0 0 #DCE0E6; padding: 7px 10px; width: 974px; height:120px; overflow: hidden}
+   
+   
+   /* Custom Colours */
+   
+   #LocalMastheadwnav {
+ background: none repeat scroll 0 0 #a39161;
+}
+
+#LocalMasthead {
+ background: none repeat scroll 0 0 #a39161;
+}
+
+#LocalMastheadHome {
+ background: none repeat scroll 0 0 #a39161;
+}
+
+
+.boxtitle {
+    background: none repeat scroll 0 0 #a39161;
+}
+
+.imagebor {
+
+    border: 1px solid #a39161;
+
+}
+
+.Button {
+    background: none repeat scroll 0 0 #a39161;
+ }
+ 
