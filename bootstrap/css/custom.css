@@ -441,3 +441,21 @@ h6			{ font-size: 1em; font-weight: lighter; margin-bottom: 0.5em; border-bottom
     background: none repeat scroll 0 0 #a39161;
  }
  
+ 
+ /* Responsive Iframes */
+ 
+ .gci-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.gci-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
