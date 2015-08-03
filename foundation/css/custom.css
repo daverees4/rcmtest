@@ -37,8 +37,8 @@ float:left;
 	
 #searchwrapper2 {
 margin-left:553px;
-margin-right: 10px;
-margin-right: 20px;
+margin-right: 15px;
+
 
 height:40px;
 }
@@ -298,9 +298,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b50937', end
 .breadcrumbs a:link, .breadcrumbs a:visited	{ color: #999; }
 .breadcrumbs a:hover, .breadcrumbs a:active	{ color: #333; }
 
-.breadcrumbswnav	{ color: #FFFFFF; font-size: 11px; float: right; padding-right: 30px; padding-top: 10px;}
+.breadcrumbswnav	{ color: #FFFFFF; font-size: 11px; float: right; padding-right: 15px; padding-top: 10px;}
 .breadcrumbswnav a:link, .breadcrumbs a:visited	{ color: #fff; }
-.breadcrumbswnav a:hover, .breadcrumbs a:active	{ color: #fff; }
+.breadcrumbswnav a:hover, .breadcrumbs a:active	{ color: #fff; text-decoration: underline}
 
 
 
@@ -406,4 +406,15 @@ a:link, a:visited	{ color: #474747; }
 .mainpagecontent a:link, .mainpagecontent a:visited {text-decoration: underline}
 
 	
+/* side navigation */
+ul.sideNav {margin: 0; margin-bottom: 22px;}
+ul.sideNav li { margin: 0 0 2px 0; padding: 0;  background-color:#e7e7e9; list-style-type: none; }
+ul.sideNav li a { display: block;  padding: 0 0 0 5px; border-top: 2px #e7e7e9 solid; border-bottom: 2px #e7e7e9 solid;}
+
+ul.sideNav li a:hover, ul.sideNav li a:active { border-left: 3px solid #b50937; color: #b50937; }
+ul.sideNav li.currentPage a:link, ul.sideNav li.currentPage a:visited { color: #555555; }
+
+ul.sideNav .currentbranch0 a {color: #b50937;}
+
+.currentbranch1 a {color: #b50937;}
 
