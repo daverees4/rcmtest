@@ -11,6 +11,8 @@ body {background: #CFCFD7;
 	font-family: "Arial", Arial, sans-serif;
 }
 
+.clear { clear: both}
+
 p, li {
 	font-size: 12px;
 }
@@ -82,6 +84,10 @@ height:18px;
 }
 
 #searchwrapper form { display:inline ; }
+
+.name h1 a {
+	font-size: 17px;
+}
 
 /* MEGA MENU */
 /* #############################################################
@@ -398,7 +404,8 @@ ul.horizList li	{  display: inline;  margin: 0; padding: 0; background: none;  }
 /* Main Page margin */
 
 .mainpagecontent {
-	margin: 26px 0;
+	margin: 13px 0;
+
 	 }
 	 
 /* links */
@@ -418,3 +425,43 @@ ul.sideNav .currentbranch0 a {color: #b50937;}
 
 .currentbranch1 a {color: #b50937;}
 
+/*Listings (for events news etc) */
+
+.Listing {padding-top: 10px; padding-bottom: 6px; border-bottom: 1px solid  #566D7B;}
+.ListingTitle {padding-bottom: 5px}
+.staffname {margin: 0}
+
+.ListingImage {float:right;}
+.ListingText {width:65%}
+ .Listing a {font-size: 12px}
+
+
+
+
+/*Events Pages */
+
+/*resize calendar element */
+
+#datepicker{ font-size:10px; padding-bottom: 23px}
+
+#EventGraphic {padding-bottom: 10px;}
+
+#EventPhoto {padding-top: 10px; padding-bottom: 10px}
+
+/* buttons */
+
+.Button {color: #FFFFFF; width:80px; height: 30px; text-align: center; background: #566D7B;}
+
+.buttonmargin {margin-bottom: 5px}
+
+.Button p {padding: 6px; }
+.Button a {padding: 5px; color: #ffffff}
+
+.Button a:hover {text-decoration: underline }
+
+.rightpadding {margin: 26px}
+.bookingpadding {margin: 5px 26px 0px 26px }
+.quicklinks {width: 184px}
+.nextpageevents { background-color: #604565;}
+.nextpageevents a:link, .nextpageevents a:visited {color: #fff;}
+.button:hover {background-color: #6F4E75}
