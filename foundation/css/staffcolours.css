@@ -1,0 +1,31 @@
+#LocalMastheadwnav {
+ background: none repeat scroll 0 0 #a39161;
+}
+
+#LocalMasthead {
+ background: none repeat scroll 0 0 #a39161;
+}
+
+.boxtitle {
+    background: none repeat scroll 0 0 #a39161;
+}
+
+.imagebor {
+
+    border: 1px solid #604565;
+
+}
+
+.Button {
+    background: none repeat scroll 0 0 #a39161;
+ }
+ 
+ .boxtitle h3 {
+color: #ffffff; 
+ }
+ 
+  .boxtitle a {
+color: #ffffff; 
+ }
+ 
+ .nextpageevents, .searchbutton, .button:visited { background-color: #a39161; color: #fff; border: none;}

@@ -1,3 +1,4 @@
+
 .red {background-color: red}
 .yellow {background-color: yellow}
 .green {background-color: green}
@@ -463,10 +464,12 @@ ul.sideNav .currentbranch0 a {color: #b50937;}
 .rightpadding {margin: 26px}
 .bookingpadding {margin: 5px 26px 0px 26px }
 .quicklinks {width: 184px}
-.nextpageevents, .searchbutton, .button:visited { background-color: #604565; color: #fff; border: none;}
+
+.nextpagestaff {background-color: #a39161 }
 .nextpageevents a:link, .nextpageevents a:visited {color: #fff;}
 .button:hover {background-color: #6F4E75}
 .postfix {border: none}
+.staffname a {font-size: 21.6px; text-decoration: none}
 
 .firsteventfilter {
 	margin-top: 0.5 rem;
